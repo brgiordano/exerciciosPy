@@ -1,4 +1,5 @@
 # Faça um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos separados.
+
 numero = int(input("Digite um número de 0 a 9999: "))
 print(f"O número {numero} contém:")
 print("\t{} Unidades".format(numero % 10))

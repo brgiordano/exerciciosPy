@@ -19,9 +19,10 @@ print(f"Tocando o áudio \"{source}\"")
 #get_busy() verifica se o áudio ainda está tocando
 paused = False
 while pygame.mixer.music.get_busy() or paused :
-    comando = int(input("[1] Play\n"
-                        "[2] Pause\n"
-                        "[3] Stop\nDigite a opção desejada: "))
+    comando = int(input("\t[1] Play\n"
+                        "\t[2] Pause\n"
+                        "\t[3] Stop\n"
+                        "Digite a opção desejada: "))
     if comando == 1:
         pygame.mixer.music.unpause()
         paused = False

@@ -1,4 +1,5 @@
 # Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a sua média.
+
 qtdNotas = 2
 media: float = 0
 notas: list[float] = [0] * qtdNotas

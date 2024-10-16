@@ -1,4 +1,5 @@
 # Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar.
+
 import time
 
 valorEmReal = float(input("Digite o valor em R$ para ser convertido em U$: "))

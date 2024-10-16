@@ -1,4 +1,5 @@
 # Faça um programa que leia um número Inteiro qualquer e mostre na tela a sua tabuada (de multiplicação).
+
 baseTabuada = int(input("Digite qual a tabuada desejada: "))
 print(20*'-')
 for i in range(1, 11):
