@@ -3,8 +3,8 @@
 # O programa deverá escrever na tela se o usuário venceu ou perdeu.
 import random
 
-numero = random.randint(0,5)
 palpite = int(input("De 0 a 5, adivinhe o número escolhido: "))
+numero = random.randint(0,5)
 if palpite == numero:
     print("Parabéns, você acertou. O número escolhido foi {}.".format(numero))
 else:
