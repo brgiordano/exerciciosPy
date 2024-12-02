@@ -11,7 +11,7 @@ class Sistema:
             Menu.exibir()
 
             while True:
-                opt = get_opt().strip()
+                opt = get_opt('Sua opção: ').strip()
                 if opt.isdigit():
                     match opt:
                         case '1':
@@ -19,6 +19,8 @@ class Sistema:
                         case '2':
                             Menu.opcao_2()
                         case '3':
+                            Menu.opcao_3()
+                        case '4':
                             Menu.opt_exit()
                             sys_exit = True
                             break

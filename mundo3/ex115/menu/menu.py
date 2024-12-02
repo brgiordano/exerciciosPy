@@ -1,6 +1,7 @@
 from mundo3.ex115.menu.opt_1 import opt_1
 from mundo3.ex115.menu.opt_2 import opt_2
 from mundo3.ex115.menu.opt_3 import opt_3
+from mundo3.ex115.menu.opt_4 import opt_4
 from mundo3.ex115.utils.utils import header, print_line
 from mundo3.ex115.utils.colors import Cores as Clr
 
@@ -12,6 +13,7 @@ class Menu:
 
         menu = ['Ver pessoas cadastradas',
                 'Cadastrar nova pessoa',
+                'Excluir cadastro',
                 'Sair do sistema']
         for i, item in enumerate(menu):
             print(Clr.color_str(f'\t{i + 1} - {item}', 'CYAN'))
@@ -26,5 +28,9 @@ class Menu:
         opt_2()
 
     @staticmethod
-    def opt_exit():
+    def opcao_3():
         opt_3()
+
+    @staticmethod
+    def opt_exit():
+        opt_4()

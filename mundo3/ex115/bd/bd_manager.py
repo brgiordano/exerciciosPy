@@ -42,3 +42,27 @@ class GerenciadorBD:
         caminho_bd = get_caminho()
         with open(caminho_bd, 'a', encoding='utf-8') as bd:
             bd.write(f'{';'.join([str(dado) for dado in pessoa])}\n')
+
+
+    @staticmethod
+    def bd_excluir(index: int):
+        caminho_bd = get_caminho()
+        with open(caminho_bd, 'r', encoding='utf-8') as bd:
+            pessoas = bd.readlines()
+            pessoas.pop(index)
+
+        with open(caminho_bd, 'w', encoding='utf-8') as bd:
+            bd.writelines(pessoas)
+
+    @staticmethod
+    def bd_refazer(novo_banco: list):
+        caminho_bd = get_caminho()
+        with open(caminho_bd, 'w', encoding='utf-8') as bd:
+            bd.writelines(novo_banco)
+
+    @staticmethod
+    def bd_obter_cadastros():
+        caminho_bd = get_caminho()
+        with open(caminho_bd, 'r', encoding='utf-8') as bd:
+            cadastros = bd.readlines()
+            return cadastros

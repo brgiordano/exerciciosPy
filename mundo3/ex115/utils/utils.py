@@ -8,8 +8,8 @@ def header(title):
 def error_msg(msg):
     print(Clr.color_str(msg, 'RED'))
 
-def get_opt():
-    opt = input(Clr.color_str('Sua opção: ', 'YELLOW'))
+def get_opt(msg):
+    opt = input(Clr.color_str(f'{msg}', 'YELLOW'))
     return opt
 
 def print_line(num = 45):
