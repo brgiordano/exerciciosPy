@@ -1,10 +1,10 @@
-from mundo3.ex115.utils.utils import header, error_msg
+from mundo3.ex115.utils.utils import header, error_msg, print_line
 from mundo3.ex115.bd.bd_manager import GerenciadorBD as Banco
 from mundo3.ex115.utils.colors import Cores as Clr
 
 # cadastrar nova pessoa
 def opt_2():
-    header('CADASTRO DE NOVA PESSOA')
+    header('NOVO CADASTRO')
 
     while True:
         nome = input('Digite o nome: ')
@@ -16,9 +16,11 @@ def opt_2():
             except ValueError:
                 error_msg('Digite um número inteiro válido!')
                 continue
+        print_line()
         print(
-            Clr.color_str(f'\tNOME: {nome}\n'
-                               f'\tIDADE: {idade}',
+            Clr.color_str('NOVO CADASTRO:\n', 'GREEN'),
+            Clr.color_str(f'\tNOME: {nome} - '
+                               f'IDADE: {idade}',
                           'BLUE')
         )
         print('Os dados estão corretos?')

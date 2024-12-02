@@ -12,7 +12,7 @@ class Menu:
         header('MENU PRINCIPAL')
 
         menu = ['Ver pessoas cadastradas',
-                'Cadastrar nova pessoa',
+                'Novo cadastro',
                 'Excluir cadastro',
                 'Sair do sistema']
         for i, item in enumerate(menu):
