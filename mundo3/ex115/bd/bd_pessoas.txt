@@ -1,0 +1,25 @@
+Maria Silva;40
+João Santos;25
+Ana Pereira;30
+Pedro Souza;22
+Carla Oliveira;35
+Lucas Almeida;45
+Mariana Ribeiro;28
+Gabriel Costa;50
+Fernanda Ferreira;33
+Ricardo Gomes;19
+João Silva;39
+Carla Ribeiro;41
+Lucas Santos;56
+Ana Costa;27
+Maria Souza;60
+Gabriel Oliveira;36
+Pedro Almeida;31
+Mariana Pereira;29
+Fernanda Silva;48
+Ricardo Santos;20
+José Luiz Santos;9
+Antônio Silva Melo;35
+João Junior;15
+Marcelo Farias;37
+Joana Ferreira;41
