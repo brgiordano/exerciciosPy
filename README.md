@@ -14,7 +14,7 @@
 ## Diretório 'cores':
 
 ### Nesse diretório estão contidos os arquivos 'cores.py' e 'colorPrint.py'.
-#### O diretório em questão, e seus arquivos, não fazem parte da proposta de resolução do curso em vídeo, e foram criados com a proposta de inserir cores em alguns prints para formatar a saída de maniera mais bonita.
+#### O diretório em questão, e seus arquivos, não fazem parte da proposta de resolução do curso em vídeo, e foram criados com a proposta de inserir cores em alguns prints para formatar a saída de maneira mais bonita.
 * #### cores.py: Enum que tranforma os códigos ansi das cores em nomes de linguagem natural: RED, GREEN, YELLOW, e etc.
 * #### colorPrint: Define a função color_print() que é capaz de imprimir um texto colorido na tela.
   * #### A função recebe uma string e uma cor como argumentos, e faz um print da string com a cor determinada.
