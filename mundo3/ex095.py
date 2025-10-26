@@ -5,7 +5,7 @@
 #       O programa vai ler o nome do jogador e quantas partidas ele jogou.
 #       Depois vai ler a quantidade de gols feitos em cada partida.
 #       No final, tudo isso será guardado em um dicionário, incluindo o total de gols feitos durante o campeonato.
-from cores.colorPrint import color_print
+from colors.colorPrint import color_print
 print('-'*60)
 print(f"{"Cadastro de jogador de futebol 2":^60}")
 print('-'*60)

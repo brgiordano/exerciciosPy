@@ -8,4 +8,4 @@ cotacaoDolarEmReal = 3.27
 for i in range(51):
     print(f"\rProgresso: [{('#' * i).ljust(50)}] {i*2}% ", end="")
     time.sleep(0.1)
-print(f"\nCom R${valorEmReal:.2f} você pode comprar U${valorEmReal/cotacaoDolarEmReal:.2f}")
+print(f"\nCom R${valorEmReal:.2f} você pode comprar US${valorEmReal/cotacaoDolarEmReal:.2f}")

@@ -4,7 +4,7 @@
 # – Média entre 5.0 e 6.9: RECUPERAÇÃO
 # – Média 7.0 ou superior: APROVADO
 
-from cores.cores import *
+from colors.colorPrint import color_print
 
 print("\n"+"-=-"*4, end = "")
 print("Cálculo de média", end = "")
@@ -15,13 +15,13 @@ for i in range(len(notas)):
     notas[i] = float(input(f"\tDigite a {i+1}ª nota: "))
 media = sum(notas) / len(notas)
 
-print(f"{cyan}Sua média foi {media:.1f}{default}")
+color_print(f"Sua média foi {media:.1f}", "CYAN")
 if 5 < media < 7:
-    print(f"Você está em {yellow}RECUPERAÇÃO{default}")
+    color_print(f"Você está em RECUPERAÇÃO", "YELLOW")
 elif media < 5:
-    print(f"Você está {red}REPROVADO{default}")
+    color_print(f"Você está REPROVADO", "RED")
 else:
-    print(f"PARABÉNS! Você foi {green}APROVADO{default}")
+    color_print(f"PARABÉNS! Você foi APROVADO","GREEN")
 
 
 

@@ -1,5 +1,5 @@
 # modulo do ex111 e 112
-from cores.colorPrint import color_print
+from colors.colorPrint import color_print
 
 
 def leia_dinheiro(msg = ''):

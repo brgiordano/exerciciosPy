@@ -3,7 +3,7 @@
 #   A) Quantas pessoas foram cadastradas.
 #   B) Uma listagem com as pessoas mais pesadas.
 #   C) Uma listagem com as pessoas mais leves.
-from cores.colorPrint import color_print
+from colors.colorPrint import color_print
 
 print('-'*60)
 print(f"{"Lista composta e análise de dados":^60}")

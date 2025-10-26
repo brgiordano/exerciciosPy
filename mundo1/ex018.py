@@ -4,5 +4,5 @@ import math
 
 angulo = float(input("Digite um ângulo: "))
 print(f"O Seno do ângulo de {angulo}º é: {math.sin(math.radians(angulo)):.3f}\n"
-      f"O Cosse do ângulo de {angulo}º é: {math.cos(math.radians(angulo)):.3f}\n"
+      f"O Cosseno do ângulo de {angulo}º é: {math.cos(math.radians(angulo)):.3f}\n"
       f"A Tangente do ângulo de {angulo}º é: {math.tan(math.radians(angulo)):.3f}")

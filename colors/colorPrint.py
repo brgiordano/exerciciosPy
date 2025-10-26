@@ -1,4 +1,4 @@
-from cores.cores import Cores
+from colors.cores import Cores
 def color_print(msg: str, color: str = "DEFAULT"):
     if color.upper() in Cores.__members__:
         cor = Cores[color.upper()]

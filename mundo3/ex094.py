@@ -5,7 +5,7 @@
 #   B) A média de idade
 #   C) Uma lista com as mulheres
 #   D) Uma lista de pessoas com idade acima da média
-from cores.colorPrint import color_print
+from colors.colorPrint import color_print
 
 print('-'*60)
 print(f"{"Unindo dicionários e listas":^60}")

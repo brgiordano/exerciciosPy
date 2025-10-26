@@ -1,7 +1,7 @@
 # Reescreva a função leiaInt() que fizemos no desafio 104,
 # incluindo agora a possibilidade da digitação de um número de tipo inválido.
 # Aproveite e crie também uma função leiaFloat() com a mesma funcionalidade.
-from cores.colorPrint import color_print
+from colors.colorPrint import color_print
 
 print('-'*60)
 print(f"{"Funções aprofundadas em Python":^60}")

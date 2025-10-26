@@ -1,5 +1,4 @@
 # Faça um programa em Python que abra e reproduza o áudio de um arquivo MP3.
-import time
 import pygame
 
 #define o nome do arquivo
@@ -19,17 +18,17 @@ print(f"Tocando o áudio \"{source}\"")
 #get_busy() verifica se o áudio ainda está tocando
 paused = False
 while pygame.mixer.music.get_busy() or paused :
-    comando = int(input("\t[1] Play\n"
+    comando = input("\t[1] Play\n"
                         "\t[2] Pause\n"
                         "\t[3] Stop\n"
-                        "Digite a opção desejada: "))
-    if comando == 1:
+                        "Digite a opção desejada: ")
+    if comando == "1":
         pygame.mixer.music.unpause()
         paused = False
-    elif comando == 2:
+    elif comando == "2":
         pygame.mixer.music.pause()
         paused = True
-    elif comando == 3:
+    elif comando == "3":
         pygame.mixer.music.stop()
         break
 print("Áudio encerrado!")
